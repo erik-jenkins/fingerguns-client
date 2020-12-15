@@ -1,7 +1,8 @@
 FROM node:15 AS build-env
 WORKDIR /app
 
-COPY package*.json .
+COPY package.json .
+COPY yarn.lock .
 RUN yarn install
 
 COPY . .
