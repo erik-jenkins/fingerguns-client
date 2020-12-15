@@ -1,0 +1,35 @@
+2020/12/09 02:41:28 [emerg] 1#1: unknown directive "server:" in /etc/nginx/nginx.conf:12
+2020/12/09 02:41:28 [emerg] 1#1: unknown directive "server:" in /etc/nginx/nginx.conf:12
+2020/12/09 02:41:29 [emerg] 1#1: unknown directive "server:" in /etc/nginx/nginx.conf:12
+2020/12/09 02:41:30 [emerg] 1#1: unknown directive "server:" in /etc/nginx/nginx.conf:12
+2020/12/09 02:41:31 [emerg] 1#1: unknown directive "server:" in /etc/nginx/nginx.conf:12
+2020/12/09 02:41:33 [emerg] 1#1: unknown directive "server:" in /etc/nginx/nginx.conf:12
+2020/12/09 02:41:37 [emerg] 1#1: unknown directive "server:" in /etc/nginx/nginx.conf:12
+2020/12/09 02:41:44 [emerg] 1#1: unknown directive "server:" in /etc/nginx/nginx.conf:12
+2020/12/09 02:43:47 [emerg] 1#1: unknown directive "server:" in /etc/nginx/nginx.conf:8
+2020/12/09 02:43:48 [emerg] 1#1: unknown directive "server:" in /etc/nginx/nginx.conf:8
+2020/12/09 02:43:49 [emerg] 1#1: unknown directive "server:" in /etc/nginx/nginx.conf:8
+2020/12/09 02:43:50 [emerg] 1#1: unknown directive "server:" in /etc/nginx/nginx.conf:8
+2020/12/09 02:43:51 [emerg] 1#1: unknown directive "server:" in /etc/nginx/nginx.conf:8
+2020/12/09 02:43:53 [emerg] 1#1: unknown directive "server:" in /etc/nginx/nginx.conf:8
+2020/12/09 02:43:57 [emerg] 1#1: unknown directive "server:" in /etc/nginx/nginx.conf:8
+2020/12/09 02:44:57 [emerg] 1#1: unknown directive "listen:" in /etc/nginx/nginx.conf:16
+2020/12/09 02:44:58 [emerg] 1#1: unknown directive "listen:" in /etc/nginx/nginx.conf:16
+2020/12/09 02:44:59 [emerg] 1#1: unknown directive "listen:" in /etc/nginx/nginx.conf:16
+2020/12/09 02:44:59 [emerg] 1#1: unknown directive "listen:" in /etc/nginx/nginx.conf:16
+2020/12/09 02:45:01 [emerg] 1#1: unknown directive "listen:" in /etc/nginx/nginx.conf:16
+2020/12/09 03:01:01 [error] 28#28: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 192.168.64.1, server: 67ae6c26b57d, request: "GET / HTTP/1.1", host: "localhost"
+2020/12/09 03:01:02 [error] 28#28: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 192.168.64.1, server: 67ae6c26b57d, request: "GET / HTTP/1.1", host: "localhost"
+2020/12/09 03:14:08 [error] 21#21: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 192.168.64.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2020/12/09 03:14:09 [error] 21#21: *2 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 192.168.64.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2020/12/09 03:14:09 [error] 21#21: *2 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 192.168.64.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2020/12/09 04:43:16 [error] 28#28: *1 directory index of "/var/www/fingerguns/" is forbidden, client: 172.31.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2020/12/09 04:43:17 [error] 28#28: *1 directory index of "/var/www/fingerguns/" is forbidden, client: 172.31.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2020/12/09 04:44:36 [emerg] 1#1: unknown "geo" variable
+2020/12/09 04:44:37 [emerg] 1#1: unknown "geo" variable
+2020/12/09 04:44:38 [emerg] 1#1: unknown "geo" variable
+2020/12/09 04:44:38 [emerg] 1#1: unknown "geo" variable
+2020/12/09 04:44:40 [emerg] 1#1: unknown "geo" variable
+2020/12/09 04:44:42 [emerg] 1#1: unknown "geo" variable
+2020/12/09 04:58:11 [error] 28#28: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.32.1, server: , request: "GET / HTTP/1.1", upstream: "http://192.168.32.3:8080/", host: "localhost"
+2020/12/09 04:58:18 [error] 28#28: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.32.1, server: , request: "GET /posts/first-post HTTP/1.1", upstream: "http://192.168.32.3:8080/posts/first-post", host: "localhost"
