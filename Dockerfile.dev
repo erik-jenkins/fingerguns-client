@@ -1,0 +1,12 @@
+FROM node:15 AS build-env
+WORKDIR /app
+
+COPY package.json .
+COPY yarn.lock .
+RUN yarn install
+
+COPY . .
+ENV HTTPS=true
+ENV SSL_CRT_FILE /etc/letsencrypt/live/fingerguns.co/fullchain.pem
+ENV SSL_KEY_FILE /etc/letsencrypt/live/fingerguns.co/privkey.pem
+ENTRYPOINT ["yarn", "start"]
